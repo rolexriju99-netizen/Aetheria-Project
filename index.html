@@ -107,6 +107,7 @@
         .text-gradient {
             background: linear-gradient(135deg, #00f2fe 0%, #4facfe 30%, #ff0844 70%, #7f00ff 100%);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             background-size: 300% 300%;
             animation: borderFlow 8s ease infinite;
@@ -285,18 +286,27 @@
                                 My name is Anirban Riju, and I'm a beginner programmer and developer who works for enjoyment and creates projects for amusement. Another enjoyable project of mine is this website, which is made entirely of HTML code and is open source, meaning anyone can use it, adopt the concept, or even duplicate my project type for their own objectives. Please message me on Instagram if you require the HTML file.
                             </p>
                             
-                            <!-- Dedicated Social Buttons -->
+                            <!-- Unified Dedicated Social Buttons (Hardcoded SVGs to guarantee rendering) -->
                             <div class="flex flex-wrap gap-4 pt-2">
-                                <a href="https://www.instagram.com/myself.riju07/" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 rounded-xl glass-panel glass-panel-interactive font-mono text-sm font-bold text-pink-400 flex items-center gap-3 hover:bg-pink-500/10 hover:border-pink-500/50 transition-all">
-                                    <i data-lucide="instagram" class="w-5 h-5"></i>
+                                <a href="https://www.instagram.com/myself.riju07/" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 rounded-xl glass-panel glass-panel-interactive font-mono text-sm font-bold text-pink-400 flex items-center gap-3 hover:bg-pink-500/10 hover:border-pink-500/50 hover:shadow-[0_0_20px_rgba(236,72,153,0.3)] transition-all">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
                                     INSTAGRAM
                                 </a>
-                                <a href="https://www.facebook.com/myself.riju07/" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 rounded-xl glass-panel glass-panel-interactive font-mono text-sm font-bold text-blue-400 flex items-center gap-3 hover:bg-blue-500/10 hover:border-blue-500/50 transition-all">
-                                    <i data-lucide="facebook" class="w-5 h-5"></i>
+                                <a href="https://www.facebook.com/myself.riju07/" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 rounded-xl glass-panel glass-panel-interactive font-mono text-sm font-bold text-blue-400 flex items-center gap-3 hover:bg-blue-500/10 hover:border-blue-500/50 hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                    </svg>
                                     FACEBOOK
                                 </a>
-                                <a href="mailto:rolexriju99@gmail.com" class="px-6 py-3.5 rounded-xl btn-neon font-mono text-sm font-bold flex items-center gap-3 shadow-lg shadow-cyan-500/20">
-                                    <i data-lucide="mail" class="w-5 h-5"></i>
+                                <a href="mailto:rolexriju99@gmail.com" class="px-6 py-3.5 rounded-xl glass-panel glass-panel-interactive font-mono text-sm font-bold text-cyan-400 flex items-center gap-3 hover:bg-cyan-500/10 hover:border-cyan-500/50 hover:shadow-[0_0_20px_rgba(34,211,238,0.3)] transition-all">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                    </svg>
                                     EMAIL APPARATUS
                                 </a>
                             </div>
